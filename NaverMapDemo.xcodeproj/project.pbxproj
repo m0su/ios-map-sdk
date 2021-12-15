@@ -60,6 +60,7 @@
 		43F5EEE02161E3F600244E08 /* Misc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F5EEDF2161E3F600244E08 /* Misc.storyboard */; };
 		43F9639B2199792E009DAF98 /* LiteModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9639A2199792E009DAF98 /* LiteModeViewController.swift */; };
 		A3339A8A4A6F4800399F5379 /* Pods_NaverMapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A085D0F19364E020C341DF8 /* Pods_NaverMapDemo.framework */; };
+		AA5C74E32769DED800CDBF05 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C74E22769DED800CDBF05 /* Package.swift */; };
 		CE12305C21F5C3E100A9B9FC /* GlobalZIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12305B21F5C3E100A9B9FC /* GlobalZIndexViewController.swift */; };
 		CE13A1D7238FAEF800CB412D /* OverlayMinMaxZoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13A1D6238FAEF800CB412D /* OverlayMinMaxZoomController.swift */; };
 		CE5193F12717C9880048B7F0 /* NMapsMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5193F02717C9880048B7F0 /* NMapsMap.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -149,6 +150,7 @@
 		43F5EEDF2161E3F600244E08 /* Misc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Misc.storyboard; sourceTree = "<group>"; };
 		43F9639A2199792E009DAF98 /* LiteModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteModeViewController.swift; sourceTree = "<group>"; };
 		9A085D0F19364E020C341DF8 /* Pods_NaverMapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5C74E22769DED800CDBF05 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		AB0FFBDD4193E4D6B56ADD84 /* Pods-NaverMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverMapDemo.release.xcconfig"; path = "Target Support Files/Pods-NaverMapDemo/Pods-NaverMapDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CE12305B21F5C3E100A9B9FC /* GlobalZIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalZIndexViewController.swift; sourceTree = "<group>"; };
 		CE13A1D6238FAEF800CB412D /* OverlayMinMaxZoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayMinMaxZoomController.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				438AA600213D41A5004D1053 /* NMapsMap.framework */,
+				AA5C74E22769DED800CDBF05 /* Package.swift */,
 				438AA5E7213D416A004D1053 /* NaverMapDemo */,
 				438AA5E6213D416A004D1053 /* Products */,
 				357AB91B38F840DAEEF35458 /* Pods */,
@@ -520,6 +523,7 @@
 				431AF94421467E300031DCDE /* LocationOverlayViewController.swift in Sources */,
 				43F5EED42161AE7E00244E08 /* PickAllViewController.swift in Sources */,
 				431076DE215A8231008F170F /* SymbolClickEventViewController.swift in Sources */,
+				AA5C74E32769DED800CDBF05 /* Package.swift in Sources */,
 				431076CF215A49F0008F170F /* ContentPaddingViewController.swift in Sources */,
 				43E2CA2F216B7305003E08BD /* ArrowheadPathOverlayViewController.swift in Sources */,
 				43DEFE8B2148B53A00B1505E /* MultipartPathOverlayViewController.swift in Sources */,
