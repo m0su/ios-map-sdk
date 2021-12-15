@@ -13,7 +13,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "NMapsMap",
-                path: "NaverMapDemo")
+                path: "NaverMapDemo/Frameworks")
     ],
     swiftLanguageVersions: [
         .v5
