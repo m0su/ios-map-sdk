@@ -11,10 +11,6 @@ let package = Package(
         .library(name: "NMapsMap",
                  targets: ["NMapsMap"])
     ],
-    targets: [
-        .target(name: "NMapsMap",
-                path: "NaverMapDemo/Frameworks")
-    ],
     swiftLanguageVersions: [
         .v5
     ]
